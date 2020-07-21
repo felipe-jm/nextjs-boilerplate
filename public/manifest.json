@@ -1,0 +1,22 @@
+{
+  "name": "React Avançado - Boilerplate",
+  "short_name": "React Avançado",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#06092b",
+  "description": "Simple Next.js boilerplate with lint-staged, husky, eslint + prettier, jest, storybook and styled-components",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}

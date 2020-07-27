@@ -2,8 +2,7 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
-  background: #06092b;
-  color: #fff;
+  color: #696969;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -23,49 +22,40 @@ exports[`<Main /> should render the heading 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  background-color: #fff;
 }
 
 .c1 {
-  width: 25rem;
+  height: 36rem;
   margin-bottom: 2rem;
 }
 
 .c2 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .c3 {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 400;
-}
-
-.c4 {
-  margin-top: 3rem;
-  width: min(30rem,100%);
 }
 
 <main
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    alt="Next.js Logo in the screen center"
     class="c1"
-    src="/img/logo.svg"
+    src="/img/nextjs.png"
   />
   <h1
     class="c2"
   >
-    React Avançado
+    Next.js Boilerplate
   </h1>
   <p
     class="c3"
   >
-    Typescript, ReactJS, NextJS e Styled Components
+    Typescript, React.js, Next.js and Styled Components
   </p>
-  <img
-    alt="Um desenvolvedor de frente para uma tela com código."
-    class="c4"
-    src="/img/hero-illustration.svg"
-  />
 </main>
 `;

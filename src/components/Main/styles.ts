@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.main`
-  background: #06092b;
-  color: #fff;
+  color: #696969;
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -12,23 +11,20 @@ export const Wrapper = styled.main`
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  background-color: #fff;
 `;
 
 export const Logo = styled.img`
-  width: 25rem;
+  height: 36rem;
   margin-bottom: 2rem;
 `;
 
 export const Title = styled.h1`
-  font-size: 2rem;
+  font-size: 5rem;
 `;
 
 export const Description = styled.p`
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 400;
-`;
-
-export const Illustration = styled.img`
-  margin-top: 3rem;
-  width: min(30rem, 100%);
 `;

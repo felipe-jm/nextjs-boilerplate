@@ -1,22 +1,14 @@
-import { Wrapper, Logo, Title, Description, Illustration } from './styles';
+import { Wrapper, Logo, Title, Description } from './styles';
 
 const Main = ({
-  title = 'React Avançado',
-  description = 'Typescript, ReactJS, NextJS e Styled Components'
+  title = 'Next.js Boilerplate',
+  description = 'Typescript, React.js, Next.js and Styled Components'
 }) => (
   <Wrapper>
-    <Logo
-      src="/img/logo.svg"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
-    />
+    <Logo src="/img/nextjs.png" alt="Next.js Logo in the screen center" />
 
     <Title>{title}</Title>
     <Description>{description}</Description>
-
-    <Illustration
-      src="/img/hero-illustration.svg"
-      alt="Um desenvolvedor de frente para uma tela com código."
-    />
   </Wrapper>
 );
 

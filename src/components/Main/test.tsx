@@ -7,7 +7,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: /React Avançado/i })
+      screen.getByRole('heading', { name: /Next.js/i })
     ).toBeInTheDocument();
 
     expect(container.firstChild).toMatchSnapshot();
@@ -17,7 +17,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />);
 
     expect(container.firstChild).toHaveStyle({
-      'background-color': '#06092b'
+      'background-color': '#fff'
     });
   });
 });

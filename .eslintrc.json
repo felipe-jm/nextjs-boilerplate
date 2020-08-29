@@ -27,13 +27,29 @@
     "plugins": [
         "react",
         "@typescript-eslint",
-        "react-hooks"
+        "react-hooks",
+        "eslint-plugin-import-helpers"
     ],
     "rules": {
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "react/prop-types": "off",
       "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/explicit-module-boundary-types": "off"
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "import-helpers/order-imports": [
+        "warn",
+        {
+          "newlinesBetween": "always",
+          "groups": [
+            "/^next/",
+            "module",
+            "/^components/",
+            "/^utils/",
+            "/^styles/",
+            ["parent", "sibling", "index"]
+          ],
+          "alphabetize": { "order": "asc", "ignoreCase": true }
+        }
+      ]
     }
 }

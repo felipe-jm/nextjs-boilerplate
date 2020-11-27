@@ -40,7 +40,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@storybook/addon-essentials": "6.0.21",
-    "@storybook/react": "6.0.21",
+    "@storybook/react": "6.1.7",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
     "@types/jest": "^26.0.14",

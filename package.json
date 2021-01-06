@@ -52,7 +52,7 @@
     "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.11.1",
-    "commitizen": "^4.2.1",
+    "commitizen": "^4.2.2",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^6.15.0",

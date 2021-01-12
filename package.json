@@ -30,7 +30,7 @@
   "dependencies": {
     "next": "10.0.5",
     "next-pwa": "^5.0.3",
-    "react": "16.13.1",
+    "react": "16.14.0",
     "react-dom": "16.13.1",
     "styled-components": "^5.2.1"
   },

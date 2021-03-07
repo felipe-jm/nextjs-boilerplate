@@ -50,6 +50,7 @@
 - [storybook](https://storybook.js.org)
 - [lint-staged](https://github.com/okonet/lint-staged)
 - [styled-components](https://www.styled-components.com)
+- [next-pwa](https://github.com/shadowwalker/next-pwa)
 - [plop](https://plopjs.com)
 
 ## :information_source: How To Use

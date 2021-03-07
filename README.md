@@ -55,7 +55,7 @@
 
 ## :information_source: How To Use
 
-To use this template you can simply click in **Use this template** or create your Next.js app based on this template by running:
+To use this template you can simply click in **[Use this template](https://github.com/felipe-jm/nextjs-boilerplate/generate)** or create your Next.js app based on this template by running:
 
 ```bash
 yarn create next-app -e https://github.com/felipe-jm/nextjs-boilerplate

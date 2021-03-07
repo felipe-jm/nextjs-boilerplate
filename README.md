@@ -54,22 +54,10 @@
 
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
+To use this template you can simply click in **Use this template** or create your Next.js app based on this template by running:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/felipe-jm/nextjs-boilerplate
-
-# Go into the repository
-$ cd nextjs-boilerplate
-
-# Install dependencies
-$ yarn install
-
-# Run the app
-$ yarn dev
-
-# Open http://localhost:3000
+yarn create next-app -e https://github.com/felipe-jm/nextjs-boilerplate
 ```
 
 ## :gear: Generating components
@@ -105,6 +93,3 @@ This project is under the MIT license. See the [LICENSE](https://github.com/feli
 ---
 
 Made with much :heart: and :muscle: by Felipe Jung :blush: <a href="https://www.linkedin.com/in/felipe-jung/">My Contact</a>
-
-[nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/

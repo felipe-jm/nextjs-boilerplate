@@ -80,12 +80,14 @@ yarn generate Button
 
 Result:
 
-├── components
-│   ├── Button
-│       ├── index.tsx
-│       ├── stories.tsx
-│       ├── styles.ts
-│       └── test.tsx
+```
+└── components
+    └── Button
+        ├── index.tsx
+        ├── stories.tsx
+        ├── styles.ts
+        └── test.tsx
+```
 
 ## 🤝 Contributing
 

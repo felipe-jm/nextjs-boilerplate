@@ -11,7 +11,7 @@ function App({ Component, pageProps }: AppProps) {
         <link rel="manifest" href="/manifest.json" />
         <meta
           name="description"
-          content="Simple Next.js boilerplate with lint-staged, husky, eslint + prettier, jest, storybook and styled-components"
+          content="Simple Next.js boilerplate with lint-staged, husky, eslint + prettier, jest, commitlint + commitizen, storybook and styled-components."
         />
       </Head>
 

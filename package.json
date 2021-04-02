@@ -33,7 +33,7 @@
     "@babel/preset-env": "^7.13.12",
     "@babel/preset-typescript": "^7.13.0",
     "@commitlint/cli": "^12.1.1",
-    "@commitlint/config-conventional": "^12.0.1",
+    "@commitlint/config-conventional": "^12.1.1",
     "@storybook/addon-essentials": "6.2.1",
     "@storybook/react": "6.1.21",
     "@testing-library/jest-dom": "^5.11.10",

@@ -1,0 +1,73 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "09:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@storybook/addon-essentials"
+    versions:
+    - 6.1.19
+    - 6.2.4
+  - dependency-name: "@storybook/react"
+    versions:
+    - 6.1.19
+    - 6.2.1
+  - dependency-name: styled-components
+    versions:
+    - 5.2.2
+  - dependency-name: "@typescript-eslint/eslint-plugin"
+    versions:
+    - 4.15.2
+    - 4.20.0
+  - dependency-name: "@babel/core"
+    versions:
+    - 7.13.1
+    - 7.13.13
+  - dependency-name: "@testing-library/jest-dom"
+    versions:
+    - 5.11.10
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.23.0
+  - dependency-name: "@typescript-eslint/parser"
+    versions:
+    - 4.15.2
+    - 4.18.0
+  - dependency-name: "@types/styled-components"
+    versions:
+    - 5.1.8
+  - dependency-name: typescript
+    versions:
+    - 4.1.4
+    - 4.2.2
+  - dependency-name: "@commitlint/cli"
+    versions:
+    - 12.0.0
+    - 12.0.1
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - 7.12.17
+    - 7.13.0
+    - 7.13.5
+    - 7.13.8
+  - dependency-name: husky
+    versions:
+    - 5.0.9
+    - 5.1.1
+    - 5.1.2
+  - dependency-name: "@commitlint/config-conventional"
+    versions:
+    - 12.0.0
+  - dependency-name: "@babel/preset-typescript"
+    versions:
+    - 7.12.17
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.26
+    - 14.14.30
+  - dependency-name: "@types/react"
+    versions:
+    - 17.0.1

@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
+    "next:lint": "next lint",
     "typecheck": "tsc --project tsconfig.json --noEmit",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -22,7 +23,7 @@
     ]
   },
   "dependencies": {
-    "next": "10.2.3",
+    "next": "11.0.0",
     "next-pwa": "^5.2.21",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -50,6 +51,7 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^7.28.0",
+    "eslint-config-next": "^11.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import-helpers": "^1.1.0",
     "eslint-plugin-prettier": "^3.4.0",
